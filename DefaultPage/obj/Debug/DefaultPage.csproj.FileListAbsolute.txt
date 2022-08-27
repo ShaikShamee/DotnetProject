@@ -1,0 +1,6 @@
+D:\Interface1\DefaultPage\bin\Debug\DefaultPage.dll
+D:\Interface1\DefaultPage\bin\Debug\DefaultPage.pdb
+D:\Interface1\DefaultPage\obj\Debug\DefaultPage.csproj.AssemblyReference.cache
+D:\Interface1\DefaultPage\obj\Debug\DefaultPage.csproj.CoreCompileInputs.cache
+D:\Interface1\DefaultPage\obj\Debug\DefaultPage.dll
+D:\Interface1\DefaultPage\obj\Debug\DefaultPage.pdb

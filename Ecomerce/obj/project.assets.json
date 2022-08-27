@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Customer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Customer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.dll": {}
+        }
+      },
+      "DefaultPage/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DefaultPage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DefaultPage.dll": {}
+        }
+      },
+      "Order/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Order.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Order.dll": {}
+        }
+      },
+      "Product/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Product.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Customer/1.0.0": {
+      "type": "project",
+      "path": "../Customer/Customer.csproj",
+      "msbuildProject": "../Customer/Customer.csproj"
+    },
+    "DefaultPage/1.0.0": {
+      "type": "project",
+      "path": "../DefaultPage/DefaultPage.csproj",
+      "msbuildProject": "../DefaultPage/DefaultPage.csproj"
+    },
+    "Order/1.0.0": {
+      "type": "project",
+      "path": "../Order/Order.csproj",
+      "msbuildProject": "../Order/Order.csproj"
+    },
+    "Product/1.0.0": {
+      "type": "project",
+      "path": "../Product/Product.csproj",
+      "msbuildProject": "../Product/Product.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Customer >= 1.0.0",
+      "DefaultPage >= 1.0.0",
+      "Order >= 1.0.0",
+      "Product >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Interface1\\Ecomerce\\Ecomerce.csproj",
+      "projectName": "Ecomerce",
+      "projectPath": "D:\\Interface1\\Ecomerce\\Ecomerce.csproj",
+      "packagesPath": "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\",
+      "outputPath": "D:\\Interface1\\Ecomerce\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Shameema.Shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Interface1\\Customer\\Customer.csproj": {
+              "projectPath": "D:\\Interface1\\Customer\\Customer.csproj"
+            },
+            "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+              "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+            },
+            "D:\\Interface1\\Order\\Order.csproj": {
+              "projectPath": "D:\\Interface1\\Order\\Order.csproj"
+            },
+            "D:\\Interface1\\Product\\Product.csproj": {
+              "projectPath": "D:\\Interface1\\Product\\Product.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

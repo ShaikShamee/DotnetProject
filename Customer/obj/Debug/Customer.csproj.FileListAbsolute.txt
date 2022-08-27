@@ -1,0 +1,9 @@
+D:\Interface1\Customer\bin\Debug\Customer.dll
+D:\Interface1\Customer\bin\Debug\Customer.pdb
+D:\Interface1\Customer\bin\Debug\DefaultPage.dll
+D:\Interface1\Customer\bin\Debug\DefaultPage.pdb
+D:\Interface1\Customer\obj\Debug\Customer.csproj.AssemblyReference.cache
+D:\Interface1\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+D:\Interface1\Customer\obj\Debug\Customer.csproj.CopyComplete
+D:\Interface1\Customer\obj\Debug\Customer.dll
+D:\Interface1\Customer\obj\Debug\Customer.pdb

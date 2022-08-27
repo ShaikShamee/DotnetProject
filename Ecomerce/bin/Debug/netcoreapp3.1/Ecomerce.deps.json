@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ecomerce/1.0.0": {
+        "dependencies": {
+          "Customer": "1.0.0",
+          "DefaultPage": "1.0.0",
+          "Order": "1.0.0",
+          "Product": "1.0.0"
+        },
+        "runtime": {
+          "Ecomerce.dll": {}
+        }
+      },
+      "Customer/1.0.0": {
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "runtime": {
+          "Customer.dll": {}
+        }
+      },
+      "DefaultPage/1.0.0": {
+        "runtime": {
+          "DefaultPage.dll": {}
+        }
+      },
+      "Order/1.0.0": {
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "runtime": {
+          "Order.dll": {}
+        }
+      },
+      "Product/1.0.0": {
+        "dependencies": {
+          "DefaultPage": "1.0.0"
+        },
+        "runtime": {
+          "Product.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ecomerce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Customer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefaultPage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Product/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

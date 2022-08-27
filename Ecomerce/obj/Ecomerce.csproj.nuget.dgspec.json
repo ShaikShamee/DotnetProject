@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Interface1\\Ecomerce\\Ecomerce.csproj": {}
+  },
+  "projects": {
+    "D:\\Interface1\\Customer\\Customer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Interface1\\Customer\\Customer.csproj",
+        "projectName": "Customer",
+        "projectPath": "D:\\Interface1\\Customer\\Customer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+                "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj",
+        "projectName": "DefaultPage",
+        "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Interface1\\Ecomerce\\Ecomerce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Interface1\\Ecomerce\\Ecomerce.csproj",
+        "projectName": "Ecomerce",
+        "projectPath": "D:\\Interface1\\Ecomerce\\Ecomerce.csproj",
+        "packagesPath": "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\",
+        "outputPath": "D:\\Interface1\\Ecomerce\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shameema.Shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Interface1\\Customer\\Customer.csproj": {
+                "projectPath": "D:\\Interface1\\Customer\\Customer.csproj"
+              },
+              "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+                "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+              },
+              "D:\\Interface1\\Order\\Order.csproj": {
+                "projectPath": "D:\\Interface1\\Order\\Order.csproj"
+              },
+              "D:\\Interface1\\Product\\Product.csproj": {
+                "projectPath": "D:\\Interface1\\Product\\Product.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Interface1\\Order\\Order.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Interface1\\Order\\Order.csproj",
+        "projectName": "Order",
+        "projectPath": "D:\\Interface1\\Order\\Order.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+                "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Interface1\\Product\\Product.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Interface1\\Product\\Product.csproj",
+        "projectName": "Product",
+        "projectPath": "D:\\Interface1\\Product\\Product.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Interface1\\DefaultPage\\DefaultPage.csproj": {
+                "projectPath": "D:\\Interface1\\DefaultPage\\DefaultPage.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

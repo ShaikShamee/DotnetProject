@@ -1,0 +1,9 @@
+D:\Interface1\Order\bin\Debug\Order.dll
+D:\Interface1\Order\bin\Debug\Order.pdb
+D:\Interface1\Order\bin\Debug\DefaultPage.dll
+D:\Interface1\Order\bin\Debug\DefaultPage.pdb
+D:\Interface1\Order\obj\Debug\Order.csproj.AssemblyReference.cache
+D:\Interface1\Order\obj\Debug\Order.csproj.CoreCompileInputs.cache
+D:\Interface1\Order\obj\Debug\Order.csproj.CopyComplete
+D:\Interface1\Order\obj\Debug\Order.dll
+D:\Interface1\Order\obj\Debug\Order.pdb
